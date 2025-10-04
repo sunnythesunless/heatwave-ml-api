@@ -1,0 +1,11 @@
+temp_c
+temp_rolling_3h
+feelslike_c
+humidity
+hour
+temp_rolling_24h
+pressure_mb
+dewpoint_c
+daily_temp_range
+wind_kph
+month
