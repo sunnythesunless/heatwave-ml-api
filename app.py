@@ -12,8 +12,9 @@ CORS(app)
 # Load ML model
 model = joblib.load('notebook/heatwave_prediction_model.pkl')
 
-import os
-API_KEY = os.environ.get('WEATHER_API_KEY')
+# Direct API key for production
+API_KEY = "30558a9f8d57206a332a1321d9972735"
+
 
 # Add error check
 if not API_KEY:
